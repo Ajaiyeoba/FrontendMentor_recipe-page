@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+/* Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Rose-white: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-grey: hsl(30, 18%, 87%);
+    --Wenge-brown: hsl(30, 10%, 34%);
+    --Dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body{
+  background-color:  var(--Eggshell);
+  min-height: 100vh;
+  padding: 70px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+  font-family: "Outfit" sans-serif;
+  text-align: left;
+}
+.container{
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+.card{
+  background-color: var(--White) ;
+  max-width: 700px;
+  border-radius: 15px;
+  padding:30px;
+}
+
+.container img{
+  width: 100%;
+  margin: auto;
+  border-radius: 7.5px;
+}
+h1{
+  font-family: 'Young Serif', sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  color: var(--Dark-charcoal);
+}
+
+h2{
+ 
+  letter-spacing: 1px;
+  padding: 10px 0;
+  color: var(--Nutmeg);
+}
+h3{
+  color: var(--Dark-Raspberry);
+}
+p{
+  font-family: "Outfit", sans-serif;
+  color : var(--Wenge-brown);
+}
+.preparation{
+  background-color: var(--Rose-white);
+  margin: 15px 0px;
+  padding: 15px;
+}
+.preparation .time{
+  color: var(--Wenge-brown);
+    padding: 5px;
+    margin: 5px 10px;
+}
+.ingredients {
+    padding: 5px 15px;
+    margin: 5px 5px;
+    color: var(--Wenge-brown);
+}
+li {
+    padding: 5px 15px;
+}
+
+ol li {
+    margin: 5px 20px;
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.recipe{
+ 
+    color: var(--Wenge-brown);
+    font-weight: 700;
+}
+.nutrition {
+    padding: 5px 20px;
+    margin: 5px 5px;
+    color: var(--Wenge-brown);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(--Light-grey);
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--Soft-blue);
+    padding: 5px;
+    margin-top: auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    .container {
+        margin: 10px;
+    }
+}
