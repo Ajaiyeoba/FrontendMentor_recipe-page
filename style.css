@@ -71,6 +71,7 @@ p{
   background-color: var(--Rose-white);
   margin: 15px 0px;
   padding: 15px;
+  border-radius: 5px;
 }
 .preparation .time{
   color: var(--Wenge-brown);
@@ -95,6 +96,11 @@ ol li {
 .recipe{
  
     color: var(--Wenge-brown);
+    font-weight: 600;
+}
+
+.bold{
+  color: var(--Wenge-brown);
     font-weight: 700;
 }
 .nutrition {
